@@ -40,6 +40,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    background-color: #f8f3ec;
 }
 
 .nav-links{
@@ -144,6 +145,34 @@ a:hover{
 
 .hamburger-icon span :first-child{
     transform: none;
+}
+
+/* Members Section */
+
+.member-profile-container{
+    display: flex;
+    flex-direction: row;
+}
+.member-contents{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.member-img-container{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 5px;
+    width: 400px;
+}
+.member-img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.member-name{
+    display: flex;
+    justify-content: center;
 }
 
 /* Queries */
